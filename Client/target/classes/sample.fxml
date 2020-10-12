@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+    <AnchorPane prefHeight="640.0" prefWidth="480.0">
+        <ListView fx:id="listView" layoutX="7.0" layoutY="14.0" prefHeight="559.0" prefWidth="206.0" />
+        <Button layoutX="364.0" layoutY="584.0" mnemonicParsing="false" onAction="#upload" prefHeight="42.0" prefWidth="102.0" text="UPLOAD" />
+      <Button layoutX="252.0" layoutY="584.0" mnemonicParsing="false" onAction="#refreshList" prefHeight="42.0" prefWidth="102.0" text="REFRESH" />
+      <Button layoutX="138.0" layoutY="584.0" mnemonicParsing="false" onAction="#serverList" prefHeight="42.0" prefWidth="102.0" text="SERVER_LIST" />
+      <Button layoutX="27.0" layoutY="584.0" mnemonicParsing="false" onAction="#clientList" prefHeight="42.0" prefWidth="102.0" text="CLIENT_LIST" />
+      <ListView fx:id="listView2" layoutX="284.0" layoutY="14.0" prefHeight="559.0" prefWidth="190.0" />
+    </AnchorPane>
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+</GridPane>
